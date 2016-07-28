@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var monsterImg: UIImageView!
+    @IBOutlet weak var foodImg: DragImg!
+    @IBOutlet weak var heartImg: DragImg!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
             let img = UIImage(named: "idle\(x)")
             imgArray.append(img!)
         }
+        
         monsterImg.animationImages = imgArray
         monsterImg.animationDuration = 0.8
         monsterImg.animationRepeatCount = 0
@@ -29,6 +32,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("I JUST TOUCH THE SCREEN")
     }
 
 
