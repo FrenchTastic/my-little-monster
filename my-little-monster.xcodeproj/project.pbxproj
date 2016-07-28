@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		762A34061D4A89BA00E5227A /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A34051D4A89BA00E5227A /* DragImg.swift */; };
+		762A34081D4AA11100E5227A /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762A34071D4AA11100E5227A /* MonsterImg.swift */; };
 		76F4C4A61D49D457003996BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4C4A51D49D457003996BC /* AppDelegate.swift */; };
 		76F4C4A81D49D457003996BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4C4A71D49D457003996BC /* ViewController.swift */; };
 		76F4C4AB1D49D457003996BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F4C4A91D49D457003996BC /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		762A34051D4A89BA00E5227A /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		762A34071D4AA11100E5227A /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		76F4C4A21D49D457003996BC /* my-little-monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-little-monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F4C4A51D49D457003996BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F4C4A71D49D457003996BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				76F4C4AE1D49D457003996BC /* LaunchScreen.storyboard */,
 				76F4C4B11D49D457003996BC /* Info.plist */,
 				762A34051D4A89BA00E5227A /* DragImg.swift */,
+				762A34071D4AA11100E5227A /* MonsterImg.swift */,
 			);
 			path = "my-little-monster";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762A34081D4AA11100E5227A /* MonsterImg.swift in Sources */,
 				762A34061D4A89BA00E5227A /* DragImg.swift in Sources */,
 				76F4C4A81D49D457003996BC /* ViewController.swift in Sources */,
 				76F4C4A61D49D457003996BC /* AppDelegate.swift in Sources */,
